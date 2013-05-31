@@ -6,3 +6,19 @@ set number
 set ruler
 " 设置竖线
 set cuc
+
+" =============
+" Color Scheme
+" =============
+if has('syntax')
+    colorscheme zenburn
+
+    " 默认编辑器配色
+    au BufNewFile,BufRead,BufEnter,WinEnter * colo molokai
+
+    " 各不同类型的文件配色不同
+    au BufNewFile,BufRead,BufEnter,WinEnter *.wiki colo void
+
+    " 保证语法高亮
+    syntax on
+endif
