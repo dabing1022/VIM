@@ -27,3 +27,10 @@ endif
 set ignorecase
 set incsearch
 set hlsearch
+
+" 制表符
+set tabstop=4
+set expandtab
+set smarttab
+set shiftwidth=4
+set softtabstop=4
