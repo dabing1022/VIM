@@ -22,3 +22,8 @@ if has('syntax')
     " 保证语法高亮
     syntax on
 endif
+
+" 在查找时忽略大小写
+set ignorecase
+set incsearch
+set hlsearch
